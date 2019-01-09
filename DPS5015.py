@@ -15,10 +15,10 @@ MODEL = 11	#r   2 Bytes
 VERSION = 12	#r   2 Bytes
 EXTRACT_M = 35	#r/w 2 Bytes : shortcut bringing up data groups function writing value are 0-9, after writing, all corresponding data group are extracted.
 
-# DPS5015 hass user programmable ‘Data Groups’ which each store preset user values. The groups are
-# named M0-M9 giving a total of 10 ‘Data Groups’. Each data group has a subset of 8 parameters at number 10-17.
+# DPS5015 hass user programmable "Data Groups" which each store preset user values. The groups are
+# named M0-M9 giving a total of 10 "Data Groups". Each data group has a subset of 8 parameters at number 10-17.
 #
-# The ‘M0’ Data Group is the power-on default data group.
+# The "M0" Data Group is the power-on default data group.
 # M1 and M2 are the shortcut bring up data group.
 # M3-M9 are ordinary storage data groups.
 #
@@ -33,4 +33,4 @@ DG_S_OCP = 0x53	#r/w 2 Bytes
 DG_S_OPP = 0x54	#r/w 2 Bytes
 DG_B_LED = 0x55	#r/w 2 Bytes
 DG_M_PRE = 0x56	#r/w 2 Bytes
-DG_S-INI = 0x57	#r/w 2 Bytes
+DG_S_INI = 0x57	#r/w 2 Bytes
